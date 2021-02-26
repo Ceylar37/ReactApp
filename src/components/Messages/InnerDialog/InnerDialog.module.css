@@ -1,0 +1,31 @@
+.innerDialog {
+    grid-area: i;
+
+    display: grid;
+
+    grid-template-areas:
+    'mes mes'
+    'inp but';
+
+    grid-template-rows: 1fr 50px;
+    grid-template-columns: 1fr 50px;
+}
+
+.inp {
+    grid-area: inp;
+    background-color: #67917d;
+    margin: 2px;
+    border-radius: 8px;
+    border: black solid 2px;
+    height: 40px;
+}
+
+button {
+    grid-area: but;
+
+}
+
+.mes {
+    grid-area: mes;
+}
+

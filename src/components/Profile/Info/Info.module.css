@@ -1,0 +1,27 @@
+.info {
+    grid-area: i;
+    display: grid;
+
+    grid-template-areas:
+    'im l'
+    'im a';
+
+    grid-template-rows: max-content 1fr;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 10px;
+
+}
+
+.info > img {
+    height: 200px;
+    grid-area: im;
+    border-radius: 10px;
+}
+
+.login {
+    grid-area: l;
+}
+
+.age {
+    grid-area: a;
+}

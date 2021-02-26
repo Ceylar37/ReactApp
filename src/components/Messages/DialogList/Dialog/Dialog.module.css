@@ -1,0 +1,9 @@
+.active {
+    font-size: 30px;
+    padding-left: 10px  ;
+}
+
+.user {
+    display: block;
+    cursor: pointer;
+}

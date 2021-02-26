@@ -1,0 +1,27 @@
+.message {
+    border: blue solid 2px;
+    width: max-content;
+    border-radius: 5px;
+    display: block;
+    grid-area: p;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.ava {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post {
+    margin-top: 15px;
+}
+
+.like {
+    margin-top: 3px;
+    width: 20px;
+}
+
+.counter {
+    font-size: 20px;
+}

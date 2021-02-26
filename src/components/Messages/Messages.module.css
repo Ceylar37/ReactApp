@@ -1,0 +1,14 @@
+.dl {
+    border-right: black dashed 1px;
+}
+
+.messages {
+    display: grid;
+
+    grid-template-areas:
+    'd i';
+
+    grid-template-columns: 200px 1fr;
+
+    height: 650px;
+}

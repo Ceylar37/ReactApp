@@ -1,0 +1,32 @@
+.AppWrapper {
+    display: grid;
+
+    grid-template-areas:
+    'h h'
+    'n c';
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 160px 10fr;
+    grid-gap: 10px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    height: 750px;
+}
+
+.AppWrapper > * {
+    border-radius: 10px;
+
+}
+
+.contentWrapper {
+    grid-area: c;
+    background-color: #67917d;
+    height: max-content;
+}
+
+body {
+    background-color: rgba(0,41,0,0.16);
+    align-items: center;
+}

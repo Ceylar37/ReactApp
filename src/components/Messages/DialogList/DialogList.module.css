@@ -1,0 +1,24 @@
+.dialogs > * {
+    margin: 5px;
+    border-top: #4a6b59 solid 1px;
+    border-bottom: #4a6b59 solid 1px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.dialogs > *:hover {
+    padding-left: 10px;
+}
+
+.dialogs {
+    grid-area: d;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
